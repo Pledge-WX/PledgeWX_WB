@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E632021ADF4000310C4 /* AppDelegate.swift */; };
-		AA8E8E662021ADF4000310C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E652021ADF4000310C4 /* ViewController.swift */; };
 		AA8E8E692021ADF4000310C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E672021ADF4000310C4 /* Main.storyboard */; };
 		AA8E8E6C2021ADF4000310C4 /* _____Swift_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E6A2021ADF4000310C4 /* _____Swift_.xcdatamodeld */; };
 		AA8E8E6E2021ADF4000310C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		AA8E8E602021ADF4000310C4 /* 新浪微博(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8E8E632021ADF4000310C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA8E8E652021ADF4000310C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA8E8E682021ADF4000310C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA8E8E6B2021ADF4000310C4 /* _____Swift_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____Swift_.xcdatamodel"; sourceTree = "<group>"; };
 		AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				AA8E8E632021ADF4000310C4 /* AppDelegate.swift */,
-				AA8E8E652021ADF4000310C4 /* ViewController.swift */,
 				AA8E8E672021ADF4000310C4 /* Main.storyboard */,
 				AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */,
 				AA8E8E6F2021ADF4000310C4 /* LaunchScreen.storyboard */,
@@ -263,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8E8E6C2021ADF4000310C4 /* _____Swift_.xcdatamodeld in Sources */,
-				AA8E8E662021ADF4000310C4 /* ViewController.swift in Sources */,
 				AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
