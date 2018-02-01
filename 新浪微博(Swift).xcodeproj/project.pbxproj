@@ -15,13 +15,16 @@
 		AA3DA64A2022E34D00146183 /* WXDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6492022E34D00146183 /* WXDiscoverViewController.swift */; };
 		AA3DA64C2022E35D00146183 /* WXProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64B2022E35D00146183 /* WXProfileViewController.swift */; };
 		AA3DA6502022E41300146183 /* WXColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64D2022E41300146183 /* WXColorExtension.swift */; };
-		AA3DA6512022E41300146183 /* WXButtonEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64E2022E41300146183 /* WXButtonEdgeInsets.swift */; };
+		AA3DA6512022E41300146183 /* WXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64E2022E41300146183 /* WXButton.swift */; };
 		AA3DA6522022E41300146183 /* WXFontConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64F2022E41300146183 /* WXFontConstant.swift */; };
+		AA3DA6542022F67B00146183 /* WXCoustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6532022F67B00146183 /* WXCoustomTabBar.swift */; };
+		AA3DA6572022FD5800146183 /* WXComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6562022FD5800146183 /* WXComposeViewController.swift */; };
 		AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E632021ADF4000310C4 /* AppDelegate.swift */; };
 		AA8E8E6C2021ADF4000310C4 /* _____Swift_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E6A2021ADF4000310C4 /* _____Swift_.xcdatamodeld */; };
 		AA8E8E6E2021ADF4000310C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */; };
 		AA8E8E7C2021ADF5000310C4 /* _____Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E7B2021ADF5000310C4 /* _____Swift_Tests.swift */; };
 		AA8E8E872021ADF5000310C4 /* _____Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E862021ADF5000310C4 /* _____Swift_UITests.swift */; };
+		DF587A7943FBDF9AFD682338 /* Pods______Swift_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682C582F22AC1A4EFCFEABF2 /* Pods______Swift_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5045D34E91E106B7A3EC5C07 /* Pods-新浪微博(Swift).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新浪微博(Swift).debug.xcconfig"; path = "Pods/Target Support Files/Pods-新浪微博(Swift)/Pods-新浪微博(Swift).debug.xcconfig"; sourceTree = "<group>"; };
+		682C582F22AC1A4EFCFEABF2 /* Pods______Swift_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods______Swift_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E2EFAB7C766065B4379F6A /* Pods-新浪微博(Swift).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新浪微博(Swift).release.xcconfig"; path = "Pods/Target Support Files/Pods-新浪微博(Swift)/Pods-新浪微博(Swift).release.xcconfig"; sourceTree = "<group>"; };
 		AA3DA63F2022E29000146183 /* WXTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXTabBarViewController.swift; sourceTree = "<group>"; };
 		AA3DA6412022E2A200146183 /* WXNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXNavViewController.swift; sourceTree = "<group>"; };
 		AA3DA6432022E2F600146183 /* WXBeaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXBeaseViewController.swift; sourceTree = "<group>"; };
@@ -50,18 +56,20 @@
 		AA3DA6492022E34D00146183 /* WXDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXDiscoverViewController.swift; sourceTree = "<group>"; };
 		AA3DA64B2022E35D00146183 /* WXProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXProfileViewController.swift; sourceTree = "<group>"; };
 		AA3DA64D2022E41300146183 /* WXColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXColorExtension.swift; sourceTree = "<group>"; };
-		AA3DA64E2022E41300146183 /* WXButtonEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXButtonEdgeInsets.swift; sourceTree = "<group>"; };
+		AA3DA64E2022E41300146183 /* WXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXButton.swift; sourceTree = "<group>"; };
 		AA3DA64F2022E41300146183 /* WXFontConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXFontConstant.swift; sourceTree = "<group>"; };
+		AA3DA6532022F67B00146183 /* WXCoustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXCoustomTabBar.swift; sourceTree = "<group>"; };
+		AA3DA6562022FD5800146183 /* WXComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXComposeViewController.swift; sourceTree = "<group>"; };
 		AA8E8E602021ADF4000310C4 /* 新浪微博(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8E8E632021ADF4000310C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA8E8E6B2021ADF4000310C4 /* _____Swift_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____Swift_.xcdatamodel"; sourceTree = "<group>"; };
+		AA8E8E6B2021ADF4000310C4 /* _____Swift_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _____Swift_.xcdatamodel; sourceTree = "<group>"; };
 		AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8E8E722021ADF4000310C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8E8E772021ADF5000310C4 /* 新浪微博(Swift)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博(Swift)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA8E8E7B2021ADF5000310C4 /* _____Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Swift_Tests.swift"; sourceTree = "<group>"; };
+		AA8E8E7B2021ADF5000310C4 /* _____Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____Swift_Tests.swift; sourceTree = "<group>"; };
 		AA8E8E7D2021ADF5000310C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8E8E822021ADF5000310C4 /* 新浪微博(Swift)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博(Swift)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA8E8E862021ADF5000310C4 /* _____Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Swift_UITests.swift"; sourceTree = "<group>"; };
+		AA8E8E862021ADF5000310C4 /* _____Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____Swift_UITests.swift; sourceTree = "<group>"; };
 		AA8E8E882021ADF5000310C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF587A7943FBDF9AFD682338 /* Pods______Swift_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +99,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1687FCC15AEC328BA16AD9A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				682C582F22AC1A4EFCFEABF2 /* Pods______Swift_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		450CA1BA7337F8D92606347D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5045D34E91E106B7A3EC5C07 /* Pods-新浪微博(Swift).debug.xcconfig */,
+				97E2EFAB7C766065B4379F6A /* Pods-新浪微博(Swift).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AA3DA6342022E21900146183 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AA3DA6382022E21900146183 /* Model */,
 				AA3DA6392022E21900146183 /* View */,
 				AA3DA6352022E21900146183 /* ViewModel */,
-				AA3DA6382022E21900146183 /* Model */,
 				AA3DA6362022E21900146183 /* Tools */,
 				AA3DA6372022E21900146183 /* Category */,
 			);
@@ -119,9 +145,10 @@
 		AA3DA6372022E21900146183 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				AA3DA64E2022E41300146183 /* WXButtonEdgeInsets.swift */,
+				AA3DA64E2022E41300146183 /* WXButton.swift */,
 				AA3DA64D2022E41300146183 /* WXColorExtension.swift */,
 				AA3DA64F2022E41300146183 /* WXFontConstant.swift */,
+				AA3DA6532022F67B00146183 /* WXCoustomTabBar.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -136,6 +163,7 @@
 		AA3DA6392022E21900146183 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AA3DA6552022FD4100146183 /* Compose */,
 				AA3DA63E2022E21900146183 /* Main */,
 				AA3DA63A2022E21900146183 /* Home */,
 				AA3DA63C2022E21900146183 /* Message */,
@@ -187,6 +215,14 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		AA3DA6552022FD4100146183 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA6562022FD5800146183 /* WXComposeViewController.swift */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
 		AA8E8E572021ADF4000310C4 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +230,8 @@
 				AA8E8E7A2021ADF5000310C4 /* 新浪微博(Swift)Tests */,
 				AA8E8E852021ADF5000310C4 /* 新浪微博(Swift)UITests */,
 				AA8E8E612021ADF4000310C4 /* Products */,
+				450CA1BA7337F8D92606347D /* Pods */,
+				1687FCC15AEC328BA16AD9A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -244,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA8E8E8B2021ADF5000310C4 /* Build configuration list for PBXNativeTarget "新浪微博(Swift)" */;
 			buildPhases = (
+				2D94FF8691F46CBE2948E6A2 /* [CP] Check Pods Manifest.lock */,
 				AA8E8E5C2021ADF4000310C4 /* Sources */,
 				AA8E8E5D2021ADF4000310C4 /* Frameworks */,
 				AA8E8E5E2021ADF4000310C4 /* Resources */,
+				9F45EF94A6E1BE925373DDBD /* [CP] Embed Pods Frameworks */,
+				A7B0E02AD118F442DE80C59A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -364,6 +405,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D94FF8691F46CBE2948E6A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-新浪微博(Swift)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F45EF94A6E1BE925373DDBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博(Swift)/Pods-新浪微博(Swift)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博(Swift)/Pods-新浪微博(Swift)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B0E02AD118F442DE80C59A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新浪微博(Swift)/Pods-新浪微博(Swift)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA8E8E5C2021ADF4000310C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -374,10 +471,12 @@
 				AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */,
 				AA3DA6422022E2A200146183 /* WXNavViewController.swift in Sources */,
 				AA3DA6482022E33F00146183 /* WXMessageViewController.swift in Sources */,
+				AA3DA6542022F67B00146183 /* WXCoustomTabBar.swift in Sources */,
 				AA3DA6462022E33100146183 /* WXHomeViewController.swift in Sources */,
 				AA3DA6502022E41300146183 /* WXColorExtension.swift in Sources */,
+				AA3DA6572022FD5800146183 /* WXComposeViewController.swift in Sources */,
 				AA3DA64C2022E35D00146183 /* WXProfileViewController.swift in Sources */,
-				AA3DA6512022E41300146183 /* WXButtonEdgeInsets.swift in Sources */,
+				AA3DA6512022E41300146183 /* WXButton.swift in Sources */,
 				AA3DA64A2022E34D00146183 /* WXDiscoverViewController.swift in Sources */,
 				AA3DA6442022E2F600146183 /* WXBeaseViewController.swift in Sources */,
 				AA3DA6522022E41300146183 /* WXFontConstant.swift in Sources */,
@@ -525,6 +624,7 @@
 		};
 		AA8E8E8C2021ADF5000310C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5045D34E91E106B7A3EC5C07 /* Pods-新浪微博(Swift).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -542,6 +642,7 @@
 		};
 		AA8E8E8D2021ADF5000310C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E2EFAB7C766065B4379F6A /* Pods-新浪微博(Swift).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -671,7 +772,7 @@
 				AA8E8E6B2021ADF4000310C4 /* _____Swift_.xcdatamodel */,
 			);
 			currentVersion = AA8E8E6B2021ADF4000310C4 /* _____Swift_.xcdatamodel */;
-			path = "_____Swift_.xcdatamodeld";
+			path = _____Swift_.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
