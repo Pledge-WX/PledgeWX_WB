@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E632021ADF4000310C4 /* AppDelegate.swift */; };
-		AA8E8E662021ADF4000310C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E652021ADF4000310C4 /* ViewController.swift */; };
 		AA8E8E692021ADF4000310C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E672021ADF4000310C4 /* Main.storyboard */; };
 		AA8E8E6C2021ADF4000310C4 /* _____Swift_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E6A2021ADF4000310C4 /* _____Swift_.xcdatamodeld */; };
 		AA8E8E6E2021ADF4000310C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */; };
-		AA8E8E712021ADF4000310C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E6F2021ADF4000310C4 /* LaunchScreen.storyboard */; };
 		AA8E8E7C2021ADF5000310C4 /* _____Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E7B2021ADF5000310C4 /* _____Swift_Tests.swift */; };
 		AA8E8E872021ADF5000310C4 /* _____Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E862021ADF5000310C4 /* _____Swift_UITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,11 +35,9 @@
 /* Begin PBXFileReference section */
 		AA8E8E602021ADF4000310C4 /* 新浪微博(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8E8E632021ADF4000310C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA8E8E652021ADF4000310C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA8E8E682021ADF4000310C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA8E8E6B2021ADF4000310C4 /* _____Swift_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____Swift_.xcdatamodel"; sourceTree = "<group>"; };
 		AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA8E8E702021ADF4000310C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8E8E722021ADF4000310C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8E8E772021ADF5000310C4 /* 新浪微博(Swift)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新浪微博(Swift)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8E8E7B2021ADF5000310C4 /* _____Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Swift_Tests.swift"; sourceTree = "<group>"; };
@@ -100,10 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				AA8E8E632021ADF4000310C4 /* AppDelegate.swift */,
-				AA8E8E652021ADF4000310C4 /* ViewController.swift */,
 				AA8E8E672021ADF4000310C4 /* Main.storyboard */,
 				AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */,
-				AA8E8E6F2021ADF4000310C4 /* LaunchScreen.storyboard */,
 				AA8E8E722021ADF4000310C4 /* Info.plist */,
 				AA8E8E6A2021ADF4000310C4 /* _____Swift_.xcdatamodeld */,
 			);
@@ -235,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8E8E712021ADF4000310C4 /* LaunchScreen.storyboard in Resources */,
 				AA8E8E6E2021ADF4000310C4 /* Assets.xcassets in Resources */,
 				AA8E8E692021ADF4000310C4 /* Main.storyboard in Resources */,
 			);
@@ -263,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8E8E6C2021ADF4000310C4 /* _____Swift_.xcdatamodeld in Sources */,
-				AA8E8E662021ADF4000310C4 /* ViewController.swift in Sources */,
 				AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,14 +298,6 @@
 				AA8E8E682021ADF4000310C4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AA8E8E6F2021ADF4000310C4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA8E8E702021ADF4000310C4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,14 +414,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PVS6BMS5N9;
 				INFOPLIST_FILE = "新浪微博(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilenow.microblog.-----Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,14 +431,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PVS6BMS5N9;
 				INFOPLIST_FILE = "新浪微博(Swift)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobilenow.microblog.-----Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
