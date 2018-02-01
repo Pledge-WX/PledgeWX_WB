@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3DA6402022E29000146183 /* WXTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA63F2022E29000146183 /* WXTabBarViewController.swift */; };
+		AA3DA6422022E2A200146183 /* WXNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6412022E2A200146183 /* WXNavViewController.swift */; };
+		AA3DA6442022E2F600146183 /* WXBeaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6432022E2F600146183 /* WXBeaseViewController.swift */; };
+		AA3DA6462022E33100146183 /* WXHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6452022E33100146183 /* WXHomeViewController.swift */; };
+		AA3DA6482022E33F00146183 /* WXMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6472022E33F00146183 /* WXMessageViewController.swift */; };
+		AA3DA64A2022E34D00146183 /* WXDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA6492022E34D00146183 /* WXDiscoverViewController.swift */; };
+		AA3DA64C2022E35D00146183 /* WXProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64B2022E35D00146183 /* WXProfileViewController.swift */; };
+		AA3DA6502022E41300146183 /* WXColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64D2022E41300146183 /* WXColorExtension.swift */; };
+		AA3DA6512022E41300146183 /* WXButtonEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64E2022E41300146183 /* WXButtonEdgeInsets.swift */; };
+		AA3DA6522022E41300146183 /* WXFontConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3DA64F2022E41300146183 /* WXFontConstant.swift */; };
 		AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E632021ADF4000310C4 /* AppDelegate.swift */; };
-		AA8E8E692021ADF4000310C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E672021ADF4000310C4 /* Main.storyboard */; };
 		AA8E8E6C2021ADF4000310C4 /* _____Swift_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E6A2021ADF4000310C4 /* _____Swift_.xcdatamodeld */; };
 		AA8E8E6E2021ADF4000310C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */; };
 		AA8E8E7C2021ADF5000310C4 /* _____Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8E7B2021ADF5000310C4 /* _____Swift_Tests.swift */; };
@@ -33,9 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA3DA63F2022E29000146183 /* WXTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXTabBarViewController.swift; sourceTree = "<group>"; };
+		AA3DA6412022E2A200146183 /* WXNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXNavViewController.swift; sourceTree = "<group>"; };
+		AA3DA6432022E2F600146183 /* WXBeaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXBeaseViewController.swift; sourceTree = "<group>"; };
+		AA3DA6452022E33100146183 /* WXHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXHomeViewController.swift; sourceTree = "<group>"; };
+		AA3DA6472022E33F00146183 /* WXMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXMessageViewController.swift; sourceTree = "<group>"; };
+		AA3DA6492022E34D00146183 /* WXDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXDiscoverViewController.swift; sourceTree = "<group>"; };
+		AA3DA64B2022E35D00146183 /* WXProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXProfileViewController.swift; sourceTree = "<group>"; };
+		AA3DA64D2022E41300146183 /* WXColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXColorExtension.swift; sourceTree = "<group>"; };
+		AA3DA64E2022E41300146183 /* WXButtonEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXButtonEdgeInsets.swift; sourceTree = "<group>"; };
+		AA3DA64F2022E41300146183 /* WXFontConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXFontConstant.swift; sourceTree = "<group>"; };
 		AA8E8E602021ADF4000310C4 /* 新浪微博(Swift).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博(Swift).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8E8E632021ADF4000310C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA8E8E682021ADF4000310C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA8E8E6B2021ADF4000310C4 /* _____Swift_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____Swift_.xcdatamodel"; sourceTree = "<group>"; };
 		AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8E8E722021ADF4000310C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +90,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA3DA6342022E21900146183 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA6392022E21900146183 /* View */,
+				AA3DA6352022E21900146183 /* ViewModel */,
+				AA3DA6382022E21900146183 /* Model */,
+				AA3DA6362022E21900146183 /* Tools */,
+				AA3DA6372022E21900146183 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AA3DA6352022E21900146183 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA3DA6362022E21900146183 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AA3DA6372022E21900146183 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA64E2022E41300146183 /* WXButtonEdgeInsets.swift */,
+				AA3DA64D2022E41300146183 /* WXColorExtension.swift */,
+				AA3DA64F2022E41300146183 /* WXFontConstant.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA3DA6382022E21900146183 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA3DA6392022E21900146183 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA63E2022E21900146183 /* Main */,
+				AA3DA63A2022E21900146183 /* Home */,
+				AA3DA63C2022E21900146183 /* Message */,
+				AA3DA63B2022E21900146183 /* Discover */,
+				AA3DA63D2022E21900146183 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA3DA63A2022E21900146183 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA6452022E33100146183 /* WXHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AA3DA63B2022E21900146183 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA6492022E34D00146183 /* WXDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AA3DA63C2022E21900146183 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA6472022E33F00146183 /* WXMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AA3DA63D2022E21900146183 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA64B2022E35D00146183 /* WXProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA3DA63E2022E21900146183 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA3DA63F2022E29000146183 /* WXTabBarViewController.swift */,
+				AA3DA6412022E2A200146183 /* WXNavViewController.swift */,
+				AA3DA6432022E2F600146183 /* WXBeaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		AA8E8E572021ADF4000310C4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +210,8 @@
 		AA8E8E622021ADF4000310C4 /* 新浪微博(Swift) */ = {
 			isa = PBXGroup;
 			children = (
+				AA3DA6342022E21900146183 /* Classes */,
 				AA8E8E632021ADF4000310C4 /* AppDelegate.swift */,
-				AA8E8E672021ADF4000310C4 /* Main.storyboard */,
 				AA8E8E6D2021ADF4000310C4 /* Assets.xcassets */,
 				AA8E8E722021ADF4000310C4 /* Info.plist */,
 				AA8E8E6A2021ADF4000310C4 /* _____Swift_.xcdatamodeld */,
@@ -230,7 +345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8E8E6E2021ADF4000310C4 /* Assets.xcassets in Resources */,
-				AA8E8E692021ADF4000310C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +370,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8E8E6C2021ADF4000310C4 /* _____Swift_.xcdatamodeld in Sources */,
+				AA3DA6402022E29000146183 /* WXTabBarViewController.swift in Sources */,
 				AA8E8E642021ADF4000310C4 /* AppDelegate.swift in Sources */,
+				AA3DA6422022E2A200146183 /* WXNavViewController.swift in Sources */,
+				AA3DA6482022E33F00146183 /* WXMessageViewController.swift in Sources */,
+				AA3DA6462022E33100146183 /* WXHomeViewController.swift in Sources */,
+				AA3DA6502022E41300146183 /* WXColorExtension.swift in Sources */,
+				AA3DA64C2022E35D00146183 /* WXProfileViewController.swift in Sources */,
+				AA3DA6512022E41300146183 /* WXButtonEdgeInsets.swift in Sources */,
+				AA3DA64A2022E34D00146183 /* WXDiscoverViewController.swift in Sources */,
+				AA3DA6442022E2F600146183 /* WXBeaseViewController.swift in Sources */,
+				AA3DA6522022E41300146183 /* WXFontConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +414,6 @@
 			targetProxy = AA8E8E832021ADF5000310C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AA8E8E672021ADF4000310C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA8E8E682021ADF4000310C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AA8E8E892021ADF5000310C4 /* Debug */ = {
